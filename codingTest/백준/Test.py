@@ -1,5 +1,4 @@
-a = False
 
 
-if a is not True:
-    print("Sfddfsdf")
+for i in range(4,-1,-1):
+    print(i)
