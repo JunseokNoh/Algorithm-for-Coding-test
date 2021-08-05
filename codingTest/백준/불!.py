@@ -20,14 +20,14 @@ dy = [-1,0,1,0]
 dx = [0,1,0,-1]
 before_fire_cnt, before_ji_cnt = 0, -1
 while ji_que:
-    jy,jx,cnt = ji_que.popleft()
+    jy,jx,ji_cnt = ji_que.popleft()
 
     if jy == R-1 or jy == 0 or jx == C-1 or jx == 0:
-        print(cnt+1)
+        print(ji_cnt+1)
         break
 
-    if before_ji_cnt != cnt :
-        before_ji_cnt = cnt
+    if before_ji_cnt != ji_cnt :
+        before_ji_cnt = ji_cnt
         while fire_que:
             fy, fx,fire_cnt = fire_que.popleft()
             if before_fire_cnt != fire_cnt:
@@ -46,6 +46,6 @@ while ji_que:
         jjx = jx + dx[u]
         if 0 <= jjy < R and 0 <= jjx < C and _map[jjy][jjx] == '.' and ji_map[jjy][jjx]:
             ji_map[jjy][jjx] = False
-            ji_que.append([jjy,jjx,cnt+1])
+            ji_que.append([jjy,jjx,ji_cnt+1])
 else:
     print("IMPOSSIBLE")
