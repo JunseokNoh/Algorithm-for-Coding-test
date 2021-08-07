@@ -1,4 +1,5 @@
 
+a = [0,0,0,0]
+b = [1,0,0,0]
 
-for i in range(4,-1,-1):
-    print(i)
+print(a+b)
