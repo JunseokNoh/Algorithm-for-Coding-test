@@ -14,7 +14,7 @@ for _ in range(M):
     graph[a].append(b)
     graph[b].append(a)
 
-for key in graph.keys():
+for key in range(1,N+1):
     if hist[key]:
         hist[key] = False
         que = deque([key])
@@ -29,7 +29,6 @@ for key in graph.keys():
                     que.append(to_node)
         table.append((cnt,result))
 
-print(table)
 for cnt, result in table:
     for i in range(0, K+1):
         if i >= cnt:
