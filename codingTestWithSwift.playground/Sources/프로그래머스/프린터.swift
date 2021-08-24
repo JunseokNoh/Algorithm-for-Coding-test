@@ -31,13 +31,3 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
     }
     return result
 }
-
-
-//solution([2,1,3,2], 2)
-//solution([1, 1, 9, 1, 1, 1], 0)
-solution([1, 7, 8, 9], 0)
-
-/*
- 
-*/
-
