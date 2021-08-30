@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  위클리 챌린지 4주차.h
 //  codingTest
 //
-//  Created by junseok on 2021/08/25.
+//  Created by junseok on 2021/08/31.
 //
-
 import Foundation
 
 func DFS(_ depth: Int, _ str: String, _ targets:[String], _ result : inout[String]){
