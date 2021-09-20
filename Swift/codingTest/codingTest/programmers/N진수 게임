@@ -1,31 +1,13 @@
 import Foundation
 
 func trsnsform(_ result: inout [String], _ n: Int, _ num: Int){
-    var num = num
-    var temp = [String]()
-    
-    if num == 0 {
-        temp.append("0")
-    }
-    
-    while num > 0 {
-        if num % n < 10 {
-            temp.append(String(num % n))
-        }else{
-            temp.append(String(UnicodeScalar(num % n - 10 + 65)!))
-        }
-        num /= n
-    }
-    temp.reverse()
-    
-    for i in temp{
-        result.append(i)
+    String(num,radix: n).forEach{ i in
+        result.append(String(i).uppercased())
     }
 }
 
 func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
-    var val = "", num = 0
-    var result = [String]()
+    var val = "", num = 0, result = [String]()
     
     while true{
         trsnsform(&result, n, num)
