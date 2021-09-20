@@ -20,16 +20,11 @@ func transfomrm(_ str: String)->[String]{
     }
     
     head = String(str[str.index(str.startIndex, offsetBy: 0)..<str.index(str.startIndex, offsetBy: n1)])
-    
-    if n2 != 0 {
+    if n2 != 0{
         number = String(str[str.index(str.startIndex, offsetBy: n1)...str.index(str.startIndex, offsetBy: n2)])
-    }else{
-        number = String(str[str.index(str.startIndex, offsetBy: n1)..<str.endIndex])
-    }
-    
-    if n2 + 1 != str.count-1, n2 != 0{
         tail = String(str[str.index(str.startIndex, offsetBy: n2+1)..<str.endIndex])
     }else{
+        number = String(str[str.index(str.startIndex, offsetBy: n1)..<str.endIndex])
         tail = ""
     }
     
