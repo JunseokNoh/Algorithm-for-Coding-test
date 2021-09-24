@@ -1,4 +1,3 @@
-
 import Foundation
 
 func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
@@ -18,7 +17,7 @@ func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
                     index = i
                     break
                 }
-            }
+            }6
             cache.remove(at: index)
             cache.append(target)
             time += 1
