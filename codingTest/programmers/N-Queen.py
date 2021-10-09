@@ -1,30 +1,27 @@
-import sys
-import copy
 answer = 0
 
-def DFS(index,depth, n, queens, before_row):
+def DFS(row, n, queens):
     global answer
-    if depth == n :
+    if row == n :
         answer += 1
         return
 
-    while index < n**2:
-        i = index // n
-        j = index % n
-        if j not in queens:
-            for r, c in enumerate(queens):
-                if c == -1 : continue
-                if abs(r-i) == abs(c-j) : break
-            else :
-                queens[i] = j
-                DFS((i+1)*n,depth+1, n, copy.deepcopy(queens), i)
-        if i > before_row + 1: break
-        index += 1
+    for col in range(n):
+        queens[row] = col
+        flag = True
+        for r, c in enumerate(queens):
+            if r >= row : break
+            if row - r == abs(col - c) or (r < row and c == col):
+                #row보다 작은 queen들 중에서 대각선에 있거나, 같은 열에 있을 경우는 중단
+                flag = False
+                break
+        if flag:
+            DFS(row+1, n, queens)
 
 def solution(n):
     queens = [-1 for _ in range(n)]
-    DFS(0,0,n,queens,-1)
+    DFS(0,n,queens)
     return answer
 
 if __name__ == "__main__":
-    print(solution(11))
+    print(solution(12))
