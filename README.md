@@ -7,5 +7,5 @@ Swift 레포 : https://github.com/JunseokNoh/Algorithm-for-Coding-test/tree/main
 Python 레포 : https://github.com/JunseokNoh/Algorithm-for-Coding-test/tree/main/codingTest
 
 사용 언어 : 
-https://img.shields.io/badge/-swift-brightgreen
+[!뱃지이름](http://img.shields.io/badge/language-swift-orange)
 https://img.shields.io/badge/-swift-brightgreen
