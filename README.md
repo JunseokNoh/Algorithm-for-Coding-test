@@ -2,7 +2,7 @@
 
 코드 설명 : https://www.landlordgang.xyz/
 
-Swift 레포 : https://github.com/JunseokNoh/Algorithm-for-Coding-test/tree/main/Swift
+Swift 레포 : https://github.com/JunseokNoh/Algorithm-for-Coding-test/tree/main/Swift/codingTest/codingTest
 
 Python 레포 : https://github.com/JunseokNoh/Algorithm-for-Coding-test/tree/main/codingTest
 
