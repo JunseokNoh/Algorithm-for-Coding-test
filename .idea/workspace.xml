@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b438319-be12-45c5-b547-38814a43d0d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/codingTest/programmers/위클리 챌린지 12주차.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swift/codingTest/codingTest.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Swift/codingTest/codingTest.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swift/codingTest/codingTest.xcodeproj/project.xcworkspace/xcuserdata/junseok.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Swift/codingTest/codingTest.xcodeproj/project.xcworkspace/xcuserdata/junseok.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swift/codingTest/codingTest/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Swift/codingTest/codingTest/main.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swift/codingTest/codingTest/programmers/뉴스 클러스터링" beforeDir="false" afterPath="$PROJECT_DIR$/Swift/codingTest/codingTest/programmers/뉴스 클러스터링" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swift/codingTest/codingTest/programmers/위클리 챌린지 6주차" beforeDir="false" afterPath="$PROJECT_DIR$/Swift/codingTest/codingTest/programmers/위클리 챌린지 6주차" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingTest/백준/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingTest/백준/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingTest/백준/동전 챙기기.py" beforeDir="false" afterPath="$PROJECT_DIR$/codingTest/백준/동전 챙기기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +44,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Python.20925 메이플스토리">
-    <configuration name="1450 냅색문제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.동전 챙기기">
+    <configuration name="병합 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-for-Coding-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/1450 냅색문제.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/병합 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15961 회전초밥" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="동전 챙기기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-for-Coding-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/15961 회전초밥.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/동전 챙기기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1941 소문난 칠공주" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21609 상어 중학교(다시)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-for-Coding-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/1941 소문난 칠공주.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/21609 상어 중학교(다시).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20925 메이플스토리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21611 마법사 상어와 블리자드" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Algorithm-for-Coding-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/20925 메이플스토리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/21611 마법사 상어와 블리자드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,13 +153,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quick sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-for-Coding-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codingTest/백준" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codingTest/백준/quick sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20925 메이플스토리" />
+        <item itemvalue="Python.동전 챙기기" />
         <item itemvalue="Python.Test" />
-        <item itemvalue="Python.1941 소문난 칠공주" />
-        <item itemvalue="Python.1450 냅색문제" />
-        <item itemvalue="Python.15961 회전초밥" />
+        <item itemvalue="Python.quick sort" />
+        <item itemvalue="Python.21609 상어 중학교(다시)" />
       </list>
     </recent_temporary>
   </component>
