@@ -72,6 +72,12 @@ def binary_search_iteration(start, end, target, primes):
             print(mid, primes[mid])
             break
 
+def reverse_print(depth, arr):
+    if depth == len(arr):
+        return
+    reverse_print(depth+1, arr)
+    print(arr[depth], end=" ")
+
 print(factorial(3))
 arr = [4,3,7,8,1,2,3,4,63,8,9,322,11]
 #bubble_sorting(arr)
@@ -83,7 +89,8 @@ fibo_memoization(10, fibo)
 print(fibo)
 print(fibo_recursive(10))
 find_already_num()
+
 primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 print(binary_search_recursive(0, len(primes)-1, 67, primes))
 binary_search_iteration(0, len(primes)-1, 67, primes)
-
+reverse_print(0, [1,2,3,4,5,6,7,8])
