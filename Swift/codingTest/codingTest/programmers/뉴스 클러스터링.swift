@@ -65,5 +65,6 @@ func solution(_ str1:String, _ str2:String) -> Int {
     
     return Int(Double(insectCnt) / Double(totalCnt) * Double(65536))
 }
+
 print(solution("FRANCE", "french"))
 print(solution("aa1+aa2", "AAAA12"))
