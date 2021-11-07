@@ -10,6 +10,7 @@ result = 9999999999
 
 def dfs(d,num,cnt, target, hist):
     global result
+
     if num == 10 and cnt >= 3 :
         result = min(result, d)
         return
@@ -17,7 +18,7 @@ def dfs(d,num,cnt, target, hist):
     for coin, y,x in target:
         if num < coin and hist[coin] and dist[num][coin] > 0:
             hist[coin] = False
-            if  1<= coin <= 9 :
+            if 1<= coin <= 9 :
                 dfs(d+dist[num][coin], coin, cnt + 1, target,hist)
             else:
                 dfs(d + dist[num][coin], coin, cnt, target, hist)

@@ -1,7 +1,7 @@
 stack = []
 buffer = []
 
-for i in [3,4,6,8]:
+for i in [3,6,4,8]:
     stack.append(i)
 
 def stack_sort():
